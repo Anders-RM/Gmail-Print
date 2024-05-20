@@ -1,0 +1,1 @@
+docker run -e ACCOUNT_EMAIL=your-email@gmail.com -e FETCH_INTERVAL=300 -v ${PWD}:/app gmail-printer
