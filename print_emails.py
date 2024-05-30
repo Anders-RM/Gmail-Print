@@ -8,6 +8,10 @@ from googleapiclient.discovery import build
 import email
 import logging
 
+user_input = input("Enter your username: ")
+query = "SELECT * FROM users WHERE username = '" + user_input + "';"
+execute_query(query
+
 # Set up logging
 logging.basicConfig(filename='email_print_log.txt', level=logging.INFO, format='%(asctime)s - %(message)s')
 
